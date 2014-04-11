@@ -53,11 +53,3 @@ To make it work with Cockpit, create a form in the Cockpit backend called **cont
 
 
 Done! Happy collecting form data.
-
-
-<div class="uk-alert uk-alert-warning">
-    <strong><i class="uk-icon-exclamation-triangle"></i> Attention</strong>
-    <p>
-        The forms module depends on jQuery. So please make sure to include jQuery on the page you want to use the form function.
-    </p>
-</div>
