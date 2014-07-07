@@ -1,11 +1,12 @@
 ### Cockpit requirements
 
 - PHP >= 5.4
-- PDO with SQLite support
+- PDO with SQLite support ( or MongoDB )
+- GD extension enabled
 
 <hr>
 
-<span class="uk-badge">And that's it.</span> No database server is required. No generation or build scripts, no heavyweight PHP libraries or dependencies. 
+<span class="uk-badge">And that's it.</span> No database server is required. No generation or build scripts, no heavyweight PHP libraries or dependencies.
 Cockpit was succesfully tested on Apache. Nginx, or whatever web server you choose should also work out of the box.
 
 
@@ -16,7 +17,7 @@ Cockpit was succesfully tested on Apache. Nginx, or whatever web server you choo
 </div>
 
     <?php
-    
+
     try {
         if((version_compare(PHP_VERSION, '5.4.0') >= 0) && extension_loaded('pdo')) {
             $test = new PDO('sqlite::memory:');

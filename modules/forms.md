@@ -1,6 +1,6 @@
 ### Forms
 
-Forms have been always a pain. Especially handling the data after form submission. 
+Forms have been always a pain. Especially handling the data after form submission.
 We're happy to say that now Cockpit will do the dirty job for you. Cockpit collects the data + transfers it via email. We choose not to build a form builder, because we think you know HTML very well and we don't want to step in your code flow.
 
 #### Usage
@@ -52,4 +52,4 @@ To make it work with Cockpit, create a form in the Cockpit backend called **cont
     </form>
 
 
-Done! Happy collecting form data.
+**Done!** Happy collecting form data.
