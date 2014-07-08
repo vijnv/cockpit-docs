@@ -7,12 +7,14 @@
 Cockpit provides a handy function to generate thumbnails for you on the fly.
 
 
-    cockpit("mediamanager")->thumbnail("path/To/Image.png", $width, $height);
+    $thumburl = cockpit("mediamanager")->thumbnail("path/To/Image.png", $width, $height);
+
 
 Or use the shortcut function:
 
-    thumbnail("path/To/Image.png", $width, $height);
+    $thumburl = thumbnail_url("path/To/Image.png", $width, $height);
 
-##### Usage:
+
+##### Genrate thumbnail and echo image tag:
 
     <?php thumbnail("myimage.jpg", 200, 120);?>
